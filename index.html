@@ -33,418 +33,747 @@
         </div>
 
         <!-- Navbar -->
-        <div class="navbar w-100 d-flex justify-content-center align-items-center border-bottom border-secondary">
-            <div class="logo ">
-                <img src="./ecommerce images/logo.png" alt="asim jofa logo" style="height: 40px; ">
-            </div>
-            <div class="buttons flex justify-content-end align-items-center">
-                <i class="fa-solid fa-magnifying-glass"></i>
-                <i class="fa-solid fa-user"></i>
-                <i class="fa-light fa-bag-shopping"></i>
-            </div>
+        <div class="w-100" style="height: 100px;">
+            <nav class="w-100" style="height: 100px;">
+                <div
+                    class="navbar w-100  d-flex justify-content-center align-items-center border-bottom border-secondary">
+                    <div class="logo ">
+                        <img src="./ecommerce images/logo.png" alt="asim jofa logo" style="height: 40px; ">
+                    </div>
+                    <div class="buttons flex justify-content-end align-items-center">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <i class="fa-solid fa-user"></i>
+                        <i class="fa-light fa-bag-shopping"></i>
+                    </div>
+                </div>
+                <div class="tabs w-100 d-flex justify-content-center align-items-center text-uppercase p-3 gap-2"
+                    style="font-size: 10px; font-weight: 500;">
+                    <!-- Dropdown 1 -->
+                    <div class="dropdown">
+                        <a href="./collections/new-arrivals" class="text-dark link-underline-light">New In</a>
+                        <div class="dropdown-content flex-row gap-2">
+                            <div class="content d-flex flex-column" style="width: 120px;">
+                                <div class="luxury d-flex flex-column">
+                                    <h2 class="my-2" style="font-size: 12px; font-weight: 600;">Luxury</h2>
+                                    <a href="" class="text-dark link-underline-light py-1"
+                                        style="font-size: 10px; padding-top: 2px; text-transform: capitalize;">Festive
+                                        Oppulence</a>
+                                    <a href="" class="text-dark link-underline-light py-1"
+                                        style="font-size: 10px; padding-top: 2px; text-transform: capitalize;">Luxury
+                                        Festive</a>
+                                    <a href="" class="text-dark link-underline-light py-1"
+                                        style="font-size: 10px; padding-top: 2px; text-transform: capitalize;">Luxury
+                                        Lawn</a>
+                                </div>
+                                <div class="luxury d-flex flex-column">
+                                    <h2 class="my-2" style="font-size: 12px; font-weight: 600;">Essentials</h2>
+                                    <a href="" class="text-dark link-underline-light py-1"
+                                        style="font-size: 10px; padding-top: 2px; text-transform: capitalize;">Festive
+                                        Edits</a>
+                                    <a href="" class="text-dark link-underline-light py-1"
+                                        style="font-size: 10px; padding-top: 2px; text-transform: capitalize;">Ethnic
+                                        Luxe</a>
+                                    <a href="" class="text-dark link-underline-light py-1"
+                                        style="font-size: 10px; padding-top: 2px; text-transform: capitalize;">Eid
+                                        Signatures</a>
+                                </div>
+                                <div class="luxury d-flex flex-column">
+                                    <h2 class="my-2" style="font-size: 12px; font-weight: 600;">More</h2>
+                                    <a href="" class="text-dark link-underline-light py-1"
+                                        style="font-size: 10px; padding-top: 2px; text-transform: capitalize;">Western
+                                        Wear</a>
+                                </div>
+
+                            </div>
+                            <div class="content-image1 d-flex flex-column gap-2 align-items-center">
+                                <img src="./ecommerce images/new-luxury-image.webp" alt="new arrivals luxury image"
+                                    style="width: 160px; height: 270px;">
+                                <h2 class="my-2" style="font-size: 14px; font-weight: 500;">Luxury</h2>
+                            </div>
+                            <div class="content-image2 d-flex flex-column gap-2 align-items-center">
+                                <img src="./ecommerce images/new-western-image.webp"
+                                    alt="new arrivals western wear image" style="width: 160px; height: 270px;">
+                                <h2 class="my-2" style="font-size: 14px; font-weight: 500;">Western Wear</h2>
+                            </div>
+                            <div class="content-image3 d-flex flex-column gap-2 align-items-center">
+                                <img src="./ecommerce images/new-essentials-image.webp"
+                                    alt="new arrivals essentials image" style="width: 160px; height: 270px;">
+                                <h2 class="my-2" style="font-size: 14px; font-weight: 500;">Essentials</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dropdown 2 -->
+                    <div class="dropdown">
+                        <a href="./collections/spring-summer-25" class="text-dark link-underline-light">Spring /
+                            Summer</a>
+                        <div class="dropdown-content flex-row gap-3">
+                            <div class="content-image1 d-flex flex-column gap-2 align-items-center">
+                                <img src="./ecommerce images/spring-summer-everyday-image.webp"
+                                    alt="new arrivals luxury image" style="width: 170px; height: 270px;">
+                                <h2 class="my-2" style="font-size: 14px; font-weight: 500;">Everyday Wear</h2>
+                            </div>
+                            <div class="content-image2 d-flex flex-column gap-2 align-items-center">
+                                <img src="./ecommerce images/spring-summer-festive-image.webp"
+                                    alt="new arrivals western wear image" style="width: 170px; height: 270px;">
+                                <h2 class="my-2" style="font-size: 14px; font-weight: 500;">Festive Wear</h2>
+                            </div>
+                            <div class="content-image3 d-flex flex-column gap-2 align-items-center">
+                                <img src="./ecommerce images/spring-summer-edit-image.webp"
+                                    alt="new arrivals essentials image" style="width: 170px; height: 270px;">
+                                <h2 class="my-2" style="font-size: 14px; font-weight: 500;">The Edit</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dropdown 3 -->
+                    <div class="dropdown">
+                        <a href="./collections/new-arrivals" class="text-dark link-underline-light">Unstitched</a>
+                        <div class="dropdown-content flex-row gap-2">
+                            <div class="content d-flex gap-5">
+                                <div class="luxury d-flex flex-column" style="width: 130px;">
+                                    <h2 class="my-2" style="font-size: 12px; font-weight: 600;">Shop By Category</h2>
+                                    <a href="" class="text-dark link-underline-light py-1"
+                                        style="font-size: 10px; padding-top: 2px; text-transform: capitalize;">Luxury</a>
+                                    <a href="" class="text-dark link-underline-light py-1"
+                                        style="font-size: 10px; padding-top: 2px; text-transform: capitalize;">Essentials</a>
+                                    <a href="" class="text-dark link-underline-light py-1"
+                                        style="font-size: 10px; padding-top: 2px; text-transform: capitalize;">Limited
+                                        Edition</a>
+                                </div>
+                                <div class="luxury d-flex flex-column" style="width: 130px;">
+                                    <h2 class="my-2" style="font-size: 12px; font-weight: 600;">Shop By Type</h2>
+                                    <a href="" class="text-dark link-underline-light py-1"
+                                        style="font-size: 10px; padding-top: 2px; text-transform: capitalize;">Embroided</a>
+                                    <a href="" class="text-dark link-underline-light py-1"
+                                        style="font-size: 10px; padding-top: 2px; text-transform: capitalize;">Printed</a>
+                                </div>
+                                <div class="luxury d-flex flex-column" style="width: 130px;">
+                                    <h2 class="my-2" style="font-size: 12px; font-weight: 600;">Shop By Fabric</h2>
+                                    <a href="" class="text-dark link-underline-light py-1"
+                                        style="font-size: 10px; padding-top: 2px; text-transform: capitalize;">Valvet</a>
+                                    <a href="" class="text-dark link-underline-light py-1"
+                                        style="font-size: 10px; padding-top: 2px; text-transform: capitalize;">Cambric</a>
+                                    <a href="" class="text-dark link-underline-light py-1"
+                                        style="font-size: 10px; padding-top: 2px; text-transform: capitalize;">Lawn</a>
+                                    <a href="" class="text-dark link-underline-light py-1"
+                                        style="font-size: 10px; padding-top: 2px; text-transform: capitalize;">Chiffon</a>
+                                    <a href="" class="text-dark link-underline-light py-1"
+                                        style="font-size: 10px; padding-top: 2px; text-transform: capitalize;">Organza</a>
+                                </div>
+
+                            </div>
+                            <div class="content-image1 d-flex flex-column gap-2 align-items-center">
+                                <img src="./ecommerce images/unstitched-image.webp" alt="new arrivals luxury image"
+                                    style="width: 170px; height: 270px;">
+                                <h2 class="my-2" style="font-size: 14px; font-weight: 500;">Luxury</h2>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- Dropdown 4 -->
+                    <div class="dropdown">
+                        <a href="./collections/new-arrivals" class="text-dark link-underline-light">Ready to wear</a>
+                        <div class="dropdown-content flex-row gap-2">
+                            <div class="content d-flex gap-5">
+                                <div class="luxury d-flex flex-column" style="width: 130px;">
+                                    <h2 class="my-2" style="font-size: 12px; font-weight: 600;">Shop By Category</h2>
+                                    <a href="" class="text-dark link-underline-light py-1"
+                                        style="font-size: 10px; padding-top: 2px; text-transform: capitalize;">Luxury</a>
+                                    <a href="" class="text-dark link-underline-light py-1"
+                                        style="font-size: 10px; padding-top: 2px; text-transform: capitalize;">Essentials</a>
+                                    <a href="" class="text-dark link-underline-light py-1"
+                                        style="font-size: 10px; padding-top: 2px; text-transform: capitalize;">LDesigner
+                                        Picks</a>
+                                </div>
+                                <div class="luxury d-flex flex-column" style="width: 90px;">
+                                    <h2 class="my-2" style="font-size: 12px; font-weight: 600;">Shop By Item</h2>
+                                    <a href="" class="text-dark link-underline-light py-1"
+                                        style="font-size: 10px; padding-top: 2px; text-transform: capitalize;">Lauges
+                                        Wear</a>
+                                    <a href="" class="text-dark link-underline-light py-1"
+                                        style="font-size: 10px; padding-top: 2px; text-transform: capitalize;">Shirts</a>
+                                    <a href="" class="text-dark link-underline-light py-1"
+                                        style="font-size: 10px; padding-top: 2px; text-transform: capitalize;">Bottoms</a>
+                                    <a href="" class="text-dark link-underline-light py-1"
+                                        style="font-size: 10px; padding-top: 2px; text-transform: capitalize;">Outfit</a>
+                                    <a href="" class="text-dark link-underline-light py-1"
+                                        style="font-size: 10px; padding-top: 2px; text-transform: capitalize;">Shawl</a>
+                                </div>
+                                <div class="luxury d-flex flex-column" style="width: 130px;">
+                                    <h2 class="my-2" style="font-size: 12px; font-weight: 600;">Shop By Type</h2>
+                                    <a href="" class="text-dark link-underline-light py-1"
+                                        style="font-size: 10px; padding-top: 2px; text-transform: capitalize;">Embroided</a>
+                                    <a href="" class="text-dark link-underline-light py-1"
+                                        style="font-size: 10px; padding-top: 2px; text-transform: capitalize;">Printed</a>
+                                    <a href="" class="text-dark link-underline-light py-1"
+                                        style="font-size: 10px; padding-top: 2px; text-transform: capitalize;">Solids</a>
+                                </div>
+
+                            </div>
+                            <div class="content-image1 d-flex flex-column gap-2 align-items-center">
+                                <img src="./ecommerce images/Ready_to_wear-essential-image.jpg"
+                                    alt="new arrivals luxury image" style="width: 170px; height: 270px;">
+                                <h2 class="my-2" style="font-size: 14px; font-weight: 500;">Essential Pret</h2>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- Dropdown 5 -->
+                    <div class="dropdown">
+                        <a href="./collections/spring-summer-25" class="text-dark link-underline-light">Western Wear</a>
+                        <div class="dropdown-content flex-row gap-3">
+                            <div class="content-image1 d-flex flex-column gap-2 align-items-center">
+                                <img src="./ecommerce images/western-cassual-image.webp" alt="new arrivals luxury image"
+                                    style="width: 170px; height: 270px;">
+                                <h2 class="my-2" style="font-size: 14px; font-weight: 500;">Western Wear</h2>
+                            </div>
+                            <div class="content-image2 d-flex flex-column gap-2 align-items-center">
+                                <img src="./ecommerce images/western-tops-image.webp"
+                                    alt="new arrivals western wear image" style="width: 170px; height: 270px;">
+                                <h2 class="my-2" style="font-size: 14px; font-weight: 500;">Tops</h2>
+                            </div>
+                            <div class="content-image3 d-flex flex-column gap-2 align-items-center">
+                                <img src="./ecommerce images/western-bottom-image.webp"
+                                    alt="new arrivals essentials image" style="width: 170px; height: 270px;">
+                                <h2 class="my-2" style="font-size: 14px; font-weight: 500;">Bottoms</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dropdown 6 -->
+                    <div class="dropdown">
+                        <a href="./collections/spring-summer-25" class="text-dark link-underline-light">Mens Wear</a>
+                        <div class="dropdown-content flex-row gap-3 text-center">
+                            <div class="content-image1 d-flex flex-column gap-2 align-items-center">
+                                <img src="./ecommerce images/mens-western-casual.webp" alt="new arrivals luxury image"
+                                    style="width: 140px; height: 200px;">
+                                <h2 class="my-2" style="font-size: 14px; font-weight: 500;">Western Casual</h2>
+                            </div>
+                            <div class="content-image2 d-flex flex-column gap-2 align-items-center">
+                                <img src="./ecommerce images/mens-western-made.webp"
+                                    alt="new arrivals western wear image" style="width: 140px; height: 200px;">
+                                <h2 class="my-2" style="font-size: 14px; font-weight: 500;">Western - Made To Order</h2>
+                            </div>
+                            <div class="content-image3 d-flex flex-column gap-2 align-items-center">
+                                <img src="./ecommerce images/mens-unstitched.webp" alt="new arrivals essentials image"
+                                    style="width: 140px; height: 200px;">
+                                <h2 class="my-2" style="font-size: 14px; font-weight: 500;">Unstitched</h2>
+                            </div>
+                            <div class="content-image4 d-flex flex-column gap-2 align-items-center">
+                                <img src="./ecommerce images/mens-ready.webp" alt="new arrivals essentials image"
+                                    style="width: 140px; height: 200px;">
+                                <h2 class="my-2" style="font-size: 14px; font-weight: 500;">Ready To Wear</h2>
+                            </div>
+                            <div class="content-image5 d-flex flex-column gap-2 align-items-center">
+                                <img src="./ecommerce images/mens-made-order.jpg" alt="new arrivals essentials image"
+                                    style="width: 140px; height: 200px;">
+                                <h2 class="my-2" style="font-size: 14px; font-weight: 500;">Made To Order</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dropdown 7 -->
+                    <div class="dropdown">
+                        <a href="./collections/spring-summer-25" class="text-dark link-underline-light">Kids & Teen</a>
+                        <div class="dropdown-content flex-row gap-3 text-center">
+                            <div class="content-image1 d-flex flex-column gap-2 align-items-center">
+                                <img src="./ecommerce images/kids-unstitched.webp" alt="new arrivals luxury image"
+                                    style="width: 140px; height: 200px;">
+                                <h2 class="my-2" style="font-size: 14px; font-weight: 500;">Unstitched</h2>
+                            </div>
+                            <div class="content-image2 d-flex flex-column gap-2 align-items-center">
+                                <img src="./ecommerce images/kids-pret.webp" alt="new arrivals western wear image"
+                                    style="width: 140px; height: 200px;">
+                                <h2 class="my-2" style="font-size: 14px; font-weight: 500;">Kids Pret</h2>
+                            </div>
+                            <div class="content-image3 d-flex flex-column gap-2 align-items-center">
+                                <img src="./ecommerce images/kids-ready.webp" alt="new arrivals essentials image"
+                                    style="width: 140px; height: 200px;">
+                                <h2 class="my-2" style="font-size: 14px; font-weight: 500;">Ready To Wear</h2>
+                            </div>
+                            <div class="content-image4 d-flex flex-column gap-2 align-items-center">
+                                <img src="./ecommerce images//kids-boys-ready.webp" alt="new arrivals essentials image"
+                                    style="width: 140px; height: 200px;">
+                                <h2 class="my-2" style="font-size: 14px; font-weight: 500;">Boys - Ready To Wear</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dropdown 8 -->
+                    <div class="dropdown">
+                        <a href="./collections/spring-summer-25" class="text-dark link-underline-light">Jwelery</a>
+                        <div class="dropdown-content flex-wrap flex-row gap-3 text-center" style="width: 800px;">
+                            <div class="content-image1 d-flex flex-column gap-2 align-items-center">
+                                <img src="./ecommerce images/jwelery-bangles.webp" alt="new arrivals luxury image"
+                                    style="width: 140px; height: 150px;">
+                                <h2 class="my-2" style="font-size: 14px; font-weight: 500;">Bangles</h2>
+                            </div>
+                            <div class="content-image2 d-flex flex-column gap-2 align-items-center">
+                                <img src="./ecommerce images/jwelery-bracelet.jpg" alt="new arrivals western wear image"
+                                    style="width: 140px; height: 150px;">
+                                <h2 class="my-2" style="font-size: 14px; font-weight: 500;">Bracelet</h2>
+                            </div>
+                            <div class="content-image3 d-flex flex-column gap-2 align-items-center">
+                                <img src="./ecommerce images/jwelery-sets.webp" alt="new arrivals essentials image"
+                                    style="width: 140px; height: 150px;">
+                                <h2 class="my-2" style="font-size: 14px; font-weight: 500;">Sets</h2>
+                            </div>
+                            <div class="content-image4 d-flex flex-column gap-2 align-items-center">
+                                <img src="./ecommerce images/jwelery-rings.webp" alt="new arrivals essentials image"
+                                    style="width: 140px; height: 150px;">
+                                <h2 class="my-2" style="font-size: 14px; font-weight: 500;">Rings</h2>
+                            </div>
+                            <div class="content-image4 d-flex flex-column gap-2 align-items-center">
+                                <img src="./ecommerce images/jwelery-earrings.jpg" alt="new arrivals essentials image"
+                                    style="width: 140px; height: 150px;">
+                                <h2 class="my-2" style="font-size: 14px; font-weight: 500;">Earings</h2>
+                            </div>
+                            <div class="content-image4 d-flex flex-column gap-2 align-items-center">
+                                <img src="./ecommerce images/jwelery-silver.webp" alt="new arrivals essentials image"
+                                    style="width: 140px; height: 150px;">
+                                <h2 class="my-2" style="font-size: 14px; font-weight: 500;">Silver Jwelery</h2>
+                            </div>
+                            <div class="content-image4 d-flex flex-column gap-2 align-items-center">
+                                <img src="./ecommerce images/jwelery-mala.webp" alt="new arrivals essentials image"
+                                    style="width: 140px; height: 150px;">
+                                <h2 class="my-2" style="font-size: 14px; font-weight: 500;">Mala</h2>
+                            </div>
+                            <div class="content-image4 d-flex flex-column gap-2 align-items-center">
+                                <img src="./ecommerce images/jwelery-payal.webp" alt="new arrivals essentials image"
+                                    style="width: 140px; height: 150px;">
+                                <h2 class="my-2" style="font-size: 14px; font-weight: 500;">Payal</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Link 9 -->
+                    <a href="./collections/spring-summer-25" class="text-danger link-underline-light link-hover">Special
+                        Offer</a>
+                    <!-- Link 10 -->
+                    <a href="./collections/spring-summer-25" class="text-dark link-underline-light">Wholesale</a>
+                    <!-- Link 11 -->
+                    <a href="./collections/spring-summer-25" class="text-dark link-underline-light">Shopy</a>
+
+                </div>
+            </nav>
         </div>
-        <div class="tabs w-100 d-flex justify-content-center align-items-center text-uppercase p-3 gap-2" style="font-size: 10px; font-weight: 500;">
-              <!-- Dropdown 1 -->
-            <div class="dropdown">
-                <a href="./collections/new-arrivals" class="text-dark link-underline-light">New In</a>
-                <div class="dropdown-content flex-row gap-2">
-                    <div class="content d-flex flex-column" style="width: 120px;">
-                        <div class="luxury d-flex flex-column">
-                            <h2 class="my-2" style="font-size: 12px; font-weight: 600;">Luxury</h2>
-                            <a href="" class="text-dark link-underline-light py-1"
-                                style="font-size: 10px; padding-top: 2px; text-transform: capitalize;">Festive
-                                Oppulence</a>
-                            <a href="" class="text-dark link-underline-light py-1"
-                                style="font-size: 10px; padding-top: 2px; text-transform: capitalize;">Luxury
-                                Festive</a>
-                            <a href="" class="text-dark link-underline-light py-1"
-                                style="font-size: 10px; padding-top: 2px; text-transform: capitalize;">Luxury Lawn</a>
-                        </div>
-                        <div class="luxury d-flex flex-column">
-                            <h2 class="my-2" style="font-size: 12px; font-weight: 600;">Essentials</h2>
-                            <a href="" class="text-dark link-underline-light py-1"
-                                style="font-size: 10px; padding-top: 2px; text-transform: capitalize;">Festive Edits</a>
-                            <a href="" class="text-dark link-underline-light py-1"
-                                style="font-size: 10px; padding-top: 2px; text-transform: capitalize;">Ethnic Luxe</a>
-                            <a href="" class="text-dark link-underline-light py-1"
-                                style="font-size: 10px; padding-top: 2px; text-transform: capitalize;">Eid
-                                Signatures</a>
-                        </div>
-                        <div class="luxury d-flex flex-column">
-                            <h2 class="my-2" style="font-size: 12px; font-weight: 600;">More</h2>
-                            <a href="" class="text-dark link-underline-light py-1"
-                                style="font-size: 10px; padding-top: 2px; text-transform: capitalize;">Western Wear</a>
-                        </div>
 
-                    </div>
-                    <div class="content-image1 d-flex flex-column gap-2 align-items-center">
-                        <img src="./ecommerce images/new-luxury-image.webp" alt="new arrivals luxury image" style="width: 160px; height: 270px;">
-                        <h2 class="my-2" style="font-size: 14px; font-weight: 500;">Luxury</h2>
-                    </div>
-                    <div class="content-image2 d-flex flex-column gap-2 align-items-center">
-                        <img src="./ecommerce images/new-western-image.webp" alt="new arrivals western wear image" style="width: 160px; height: 270px;">
-                        <h2 class="my-2" style="font-size: 14px; font-weight: 500;">Western Wear</h2>
-                    </div>
-                    <div class="content-image3 d-flex flex-column gap-2 align-items-center">
-                        <img src="./ecommerce images/new-essentials-image.webp" alt="new arrivals essentials image" style="width: 160px; height: 270px;">
-                        <h2 class="my-2" style="font-size: 14px; font-weight: 500;">Essentials</h2>
-                    </div>
-                </div>
-            </div>
-           <!-- Dropdown 2 -->
-            <div class="dropdown">
-                <a href="./collections/spring-summer-25" class="text-dark link-underline-light">Spring / Summer</a>
-                <div class="dropdown-content flex-row gap-3">
-                    <div class="content-image1 d-flex flex-column gap-2 align-items-center">
-                        <img src="./ecommerce images/spring-summer-everyday-image.webp" alt="new arrivals luxury image" style="width: 170px; height: 270px;">
-                        <h2 class="my-2" style="font-size: 14px; font-weight: 500;">Everyday Wear</h2>
-                    </div>
-                    <div class="content-image2 d-flex flex-column gap-2 align-items-center">
-                        <img src="./ecommerce images/spring-summer-festive-image.webp" alt="new arrivals western wear image" style="width: 170px; height: 270px;">
-                        <h2 class="my-2" style="font-size: 14px; font-weight: 500;">Festive Wear</h2>
-                    </div>
-                    <div class="content-image3 d-flex flex-column gap-2 align-items-center">
-                        <img src="./ecommerce images/spring-summer-edit-image.webp" alt="new arrivals essentials image" style="width: 170px; height: 270px;">
-                        <h2 class="my-2" style="font-size: 14px; font-weight: 500;">The Edit</h2>
-                    </div>
-                </div>
-            </div>
-             <!-- Dropdown 3 -->
-            <div class="dropdown">
-                <a href="./collections/new-arrivals" class="text-dark link-underline-light">Unstitched</a>
-                <div class="dropdown-content flex-row gap-2">
-                    <div class="content d-flex gap-5" >
-                        <div class="luxury d-flex flex-column" style="width: 130px;">
-                            <h2 class="my-2" style="font-size: 12px; font-weight: 600;">Shop By Category</h2>
-                            <a href="" class="text-dark link-underline-light py-1"
-                                style="font-size: 10px; padding-top: 2px; text-transform: capitalize;">Luxury</a>
-                            <a href="" class="text-dark link-underline-light py-1"
-                                style="font-size: 10px; padding-top: 2px; text-transform: capitalize;">Essentials</a>
-                            <a href="" class="text-dark link-underline-light py-1"
-                                style="font-size: 10px; padding-top: 2px; text-transform: capitalize;">Limited Edition</a>
-                        </div>
-                        <div class="luxury d-flex flex-column" style="width: 130px;">
-                            <h2 class="my-2" style="font-size: 12px; font-weight: 600;">Shop By Type</h2>
-                            <a href="" class="text-dark link-underline-light py-1"
-                                style="font-size: 10px; padding-top: 2px; text-transform: capitalize;">Embroided</a>
-                            <a href="" class="text-dark link-underline-light py-1"
-                                style="font-size: 10px; padding-top: 2px; text-transform: capitalize;">Printed</a>
-                        </div>
-                        <div class="luxury d-flex flex-column" style="width: 130px;">
-                            <h2 class="my-2" style="font-size: 12px; font-weight: 600;">Shop By Fabric</h2>
-                            <a href="" class="text-dark link-underline-light py-1"
-                                style="font-size: 10px; padding-top: 2px; text-transform: capitalize;">Valvet</a>
-                            <a href="" class="text-dark link-underline-light py-1"
-                                style="font-size: 10px; padding-top: 2px; text-transform: capitalize;">Cambric</a>
-                            <a href="" class="text-dark link-underline-light py-1"
-                                style="font-size: 10px; padding-top: 2px; text-transform: capitalize;">Lawn</a>
-                            <a href="" class="text-dark link-underline-light py-1"
-                                style="font-size: 10px; padding-top: 2px; text-transform: capitalize;">Chiffon</a>
-                            <a href="" class="text-dark link-underline-light py-1"
-                                style="font-size: 10px; padding-top: 2px; text-transform: capitalize;">Organza</a>
-                        </div>
-
-                    </div>
-                    <div class="content-image1 d-flex flex-column gap-2 align-items-center">
-                        <img src="./ecommerce images/unstitched-image.webp" alt="new arrivals luxury image" style="width: 170px; height: 270px;">
-                        <h2 class="my-2" style="font-size: 14px; font-weight: 500;">Luxury</h2>
-                    </div>
-                    
-                </div>
-            </div>
-             <!-- Dropdown 4 -->
-            <div class="dropdown">
-                <a href="./collections/new-arrivals" class="text-dark link-underline-light">Ready to wear</a>
-                <div class="dropdown-content flex-row gap-2">
-                    <div class="content d-flex gap-5" >
-                        <div class="luxury d-flex flex-column" style="width: 130px;">
-                            <h2 class="my-2" style="font-size: 12px; font-weight: 600;">Shop By Category</h2>
-                            <a href="" class="text-dark link-underline-light py-1"
-                                style="font-size: 10px; padding-top: 2px; text-transform: capitalize;">Luxury</a>
-                            <a href="" class="text-dark link-underline-light py-1"
-                                style="font-size: 10px; padding-top: 2px; text-transform: capitalize;">Essentials</a>
-                            <a href="" class="text-dark link-underline-light py-1"
-                                style="font-size: 10px; padding-top: 2px; text-transform: capitalize;">LDesigner Picks</a>
-                        </div>
-                        <div class="luxury d-flex flex-column" style="width: 90px;">
-                            <h2 class="my-2" style="font-size: 12px; font-weight: 600;">Shop By Item</h2>
-                            <a href="" class="text-dark link-underline-light py-1"
-                                style="font-size: 10px; padding-top: 2px; text-transform: capitalize;">Lauges Wear</a>
-                            <a href="" class="text-dark link-underline-light py-1"
-                                style="font-size: 10px; padding-top: 2px; text-transform: capitalize;">Shirts</a>
-                            <a href="" class="text-dark link-underline-light py-1"
-                                style="font-size: 10px; padding-top: 2px; text-transform: capitalize;">Bottoms</a>
-                            <a href="" class="text-dark link-underline-light py-1"
-                                style="font-size: 10px; padding-top: 2px; text-transform: capitalize;">Outfit</a>
-                            <a href="" class="text-dark link-underline-light py-1"
-                                style="font-size: 10px; padding-top: 2px; text-transform: capitalize;">Shawl</a>
-                        </div>
-                        <div class="luxury d-flex flex-column" style="width: 130px;">
-                            <h2 class="my-2" style="font-size: 12px; font-weight: 600;">Shop By Type</h2>
-                            <a href="" class="text-dark link-underline-light py-1"
-                                style="font-size: 10px; padding-top: 2px; text-transform: capitalize;">Embroided</a>
-                            <a href="" class="text-dark link-underline-light py-1"
-                                style="font-size: 10px; padding-top: 2px; text-transform: capitalize;">Printed</a>
-                            <a href="" class="text-dark link-underline-light py-1"
-                                style="font-size: 10px; padding-top: 2px; text-transform: capitalize;">Solids</a>
-                        </div>
-
-                    </div>
-                    <div class="content-image1 d-flex flex-column gap-2 align-items-center">
-                        <img src="./ecommerce images/Ready_to_wear-essential-image.jpg" alt="new arrivals luxury image" style="width: 170px; height: 270px;">
-                        <h2 class="my-2" style="font-size: 14px; font-weight: 500;">Essential Pret</h2>
-                    </div>
-                    
-                </div>
-            </div>
-             <!-- Dropdown 5 -->
-            <div class="dropdown">
-                <a href="./collections/spring-summer-25" class="text-dark link-underline-light">Western Wear</a>
-                <div class="dropdown-content flex-row gap-3">
-                    <div class="content-image1 d-flex flex-column gap-2 align-items-center">
-                        <img src="./ecommerce images/western-cassual-image.webp" alt="new arrivals luxury image" style="width: 170px; height: 270px;">
-                        <h2 class="my-2" style="font-size: 14px; font-weight: 500;">Western Wear</h2>
-                    </div>
-                    <div class="content-image2 d-flex flex-column gap-2 align-items-center">
-                        <img src="./ecommerce images/western-tops-image.webp" alt="new arrivals western wear image" style="width: 170px; height: 270px;">
-                        <h2 class="my-2" style="font-size: 14px; font-weight: 500;">Tops</h2>
-                    </div>
-                    <div class="content-image3 d-flex flex-column gap-2 align-items-center">
-                        <img src="./ecommerce images/western-bottom-image.webp" alt="new arrivals essentials image" style="width: 170px; height: 270px;">
-                        <h2 class="my-2" style="font-size: 14px; font-weight: 500;">Bottoms</h2>
-                    </div>
-                </div>
-            </div>
-             <!-- Dropdown 6 -->
-            <div class="dropdown">
-                <a href="./collections/spring-summer-25" class="text-dark link-underline-light">Mens Wear</a>
-                <div class="dropdown-content flex-row gap-3 text-center">
-                    <div class="content-image1 d-flex flex-column gap-2 align-items-center">
-                        <img src="./ecommerce images/mens-western-casual.webp" alt="new arrivals luxury image" style="width: 140px; height: 200px;">
-                        <h2 class="my-2" style="font-size: 14px; font-weight: 500;">Western Casual</h2>
-                    </div>
-                    <div class="content-image2 d-flex flex-column gap-2 align-items-center">
-                        <img src="./ecommerce images/mens-western-made.webp" alt="new arrivals western wear image" style="width: 140px; height: 200px;">
-                        <h2 class="my-2" style="font-size: 14px; font-weight: 500;">Western - Made To Order</h2>
-                    </div>
-                    <div class="content-image3 d-flex flex-column gap-2 align-items-center">
-                        <img src="./ecommerce images/mens-unstitched.webp" alt="new arrivals essentials image" style="width: 140px; height: 200px;">
-                        <h2 class="my-2" style="font-size: 14px; font-weight: 500;">Unstitched</h2>
-                    </div>
-                    <div class="content-image4 d-flex flex-column gap-2 align-items-center">
-                        <img src="./ecommerce images/mens-ready.webp" alt="new arrivals essentials image" style="width: 140px; height: 200px;">
-                        <h2 class="my-2" style="font-size: 14px; font-weight: 500;">Ready To Wear</h2>
-                    </div>
-                    <div class="content-image5 d-flex flex-column gap-2 align-items-center">
-                        <img src="./ecommerce images/mens-made-order.jpg" alt="new arrivals essentials image" style="width: 140px; height: 200px;">
-                        <h2 class="my-2" style="font-size: 14px; font-weight: 500;">Made To Order</h2>
-                    </div>
-                </div>
-            </div>
-             <!-- Dropdown 7 -->
-            <div class="dropdown">
-                <a href="./collections/spring-summer-25" class="text-dark link-underline-light">Kids & Teen</a>
-                <div class="dropdown-content flex-row gap-3 text-center">
-                    <div class="content-image1 d-flex flex-column gap-2 align-items-center">
-                        <img src="./ecommerce images/kids-unstitched.webp" alt="new arrivals luxury image" style="width: 140px; height: 200px;">
-                        <h2 class="my-2" style="font-size: 14px; font-weight: 500;">Unstitched</h2>
-                    </div>
-                    <div class="content-image2 d-flex flex-column gap-2 align-items-center">
-                        <img src="./ecommerce images/kids-pret.webp" alt="new arrivals western wear image" style="width: 140px; height: 200px;">
-                        <h2 class="my-2" style="font-size: 14px; font-weight: 500;">Kids Pret</h2>
-                    </div>
-                    <div class="content-image3 d-flex flex-column gap-2 align-items-center">
-                        <img src="./ecommerce images/kids-ready.webp" alt="new arrivals essentials image" style="width: 140px; height: 200px;">
-                        <h2 class="my-2" style="font-size: 14px; font-weight: 500;">Ready To Wear</h2>
-                    </div>
-                    <div class="content-image4 d-flex flex-column gap-2 align-items-center">
-                        <img src="./ecommerce images//kids-boys-ready.webp" alt="new arrivals essentials image" style="width: 140px; height: 200px;">
-                        <h2 class="my-2" style="font-size: 14px; font-weight: 500;">Boys - Ready To Wear</h2>
-                    </div>
-                </div>
-            </div>
-             <!-- Dropdown 8 -->
-            <div class="dropdown">
-                <a href="./collections/spring-summer-25" class="text-dark link-underline-light">Jwelery</a>
-                <div class="dropdown-content flex-wrap flex-row gap-3 text-center" style="width: 800px;">
-                    <div class="content-image1 d-flex flex-column gap-2 align-items-center">
-                        <img src="./ecommerce images/jwelery-bangles.webp" alt="new arrivals luxury image" style="width: 140px; height: 150px;">
-                        <h2 class="my-2" style="font-size: 14px; font-weight: 500;">Bangles</h2>
-                    </div>
-                    <div class="content-image2 d-flex flex-column gap-2 align-items-center">
-                        <img src="./ecommerce images/jwelery-bracelet.jpg" alt="new arrivals western wear image" style="width: 140px; height: 150px;">
-                        <h2 class="my-2" style="font-size: 14px; font-weight: 500;">Bracelet</h2>
-                    </div>
-                    <div class="content-image3 d-flex flex-column gap-2 align-items-center">
-                        <img src="./ecommerce images/jwelery-sets.webp" alt="new arrivals essentials image" style="width: 140px; height: 150px;">
-                        <h2 class="my-2" style="font-size: 14px; font-weight: 500;">Sets</h2>
-                    </div>
-                    <div class="content-image4 d-flex flex-column gap-2 align-items-center">
-                        <img src="./ecommerce images/jwelery-rings.webp" alt="new arrivals essentials image" style="width: 140px; height: 150px;">
-                        <h2 class="my-2" style="font-size: 14px; font-weight: 500;">Rings</h2>
-                    </div>
-                    <div class="content-image4 d-flex flex-column gap-2 align-items-center">
-                        <img src="./ecommerce images/jwelery-earrings.jpg" alt="new arrivals essentials image" style="width: 140px; height: 150px;">
-                        <h2 class="my-2" style="font-size: 14px; font-weight: 500;">Earings</h2>
-                    </div>
-                    <div class="content-image4 d-flex flex-column gap-2 align-items-center">
-                        <img src="./ecommerce images/jwelery-silver.webp" alt="new arrivals essentials image" style="width: 140px; height: 150px;">
-                        <h2 class="my-2" style="font-size: 14px; font-weight: 500;">Silver Jwelery</h2>
-                    </div>
-                    <div class="content-image4 d-flex flex-column gap-2 align-items-center">
-                        <img src="./ecommerce images/jwelery-mala.webp" alt="new arrivals essentials image" style="width: 140px; height: 150px;">
-                        <h2 class="my-2" style="font-size: 14px; font-weight: 500;">Mala</h2>
-                    </div>
-                    <div class="content-image4 d-flex flex-column gap-2 align-items-center">
-                        <img src="./ecommerce images/jwelery-payal.webp" alt="new arrivals essentials image" style="width: 140px; height: 150px;">
-                        <h2 class="my-2" style="font-size: 14px; font-weight: 500;">Payal</h2>
-                    </div>
-                </div>
-            </div>
-            <!-- Link 9 -->
-             <a href="./collections/spring-summer-25" class="text-danger link-underline-light link-hover" >Special Offer</a>
-             <!-- Link 10 -->
-             <a href="./collections/spring-summer-25" class="text-dark link-underline-light">Wholesale</a>
-             <!-- Link 11 -->
-             <a href="./collections/spring-summer-25" class="text-dark link-underline-light">Shopy</a>
-
-         </div>
-        </div>
 
         <!-- Hero Section -->
         <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="./ecommerce images/Desktop_Banner1.webp" class="d-block w-100" alt="Desktop_Banner1">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./ecommerce images/Desktop_Banner1.webp" class="d-block w-100" alt="Desktop_Banner1">
+                </div>
+                <div class="carousel-item">
+                    <img src="./ecommerce images/Desktop_Banner2.webp" class="d-block w-100" alt="Desktop_Banner2">
+                </div>
+                <div class="carousel-item">
+                    <img src="./ecommerce images/Desktop_Banner3.webp" class="d-block w-100" alt="Desktop_Banner3">
+                </div>
+                <div class="carousel-item">
+                    <img src="./ecommerce images/Desktop_Banner4.webp" class="d-block w-100" alt="Desktop_Banner4">
+                </div>
+                <div class="carousel-item">
+                    <img src="./ecommerce images/Desktop_Banner5.webp" class="d-block w-100" alt="Desktop_Banner5">
+                </div>
+                <div class="carousel-item">
+                    <img src="./ecommerce images/Desktop_Banner6.webp" class="d-block w-100" alt="Desktop_Banner6">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div class="w-70 d-flex justify-content-center align-items-center gap-4 m-4">
+            <h2 class="fs-2 fw-2 text-center" style="color: rgb(44, 43, 43);">What's <span class="fs-2 d-block"
+                    style="font-weight: 600;">New</span></h2>
+            <div class="d-flex flex-column gap-2 justify-content-center align-items-center">
+                <img src="./ecommerce images/whats-new-image1.avif" alt="image" class=""
+                    style="border: 0; border-radius: 100%; width: 130px; height: 130px;">
+                <a href="./collections/spring-summer-25" class="text-dark link-underline-light text-uppercase"
+                    style="font-size: 10px;">Festive Oppulence</a>
+            </div>
+            <div class="d-flex flex-column gap-2 justify-content-center align-items-center">
+                <img src="./ecommerce images/whats-new-image2.avif" alt="image" class=""
+                    style="border: 0; border-radius: 100%; width: 130px; height: 130px;">
+                <a href="./collections/spring-summer-25" class="text-dark link-underline-light text-uppercase"
+                    style="font-size: 10px;">Festive Oppulence</a>
+            </div>
+            <div class="d-flex flex-column gap-2 justify-content-center align-items-center">
+                <img src="./ecommerce images/what-new-image-3.avif" alt="image" class=""
+                    style="border: 0; border-radius: 100%; width: 130px; height: 130px;">
+                <a href="./collections/spring-summer-25" class="text-dark link-underline-light text-uppercase"
+                    style="font-size: 10px;">Festive Oppulence</a>
+            </div>
+            <div class="d-flex flex-column gap-2 justify-content-center align-items-center">
+                <img src="./ecommerce images/what's-new-image-4.webp" alt="image" class=""
+                    style="border: 0; border-radius: 100%; width: 130px; height: 130px;">
+                <a href="./collections/spring-summer-25" class="text-dark link-underline-light text-uppercase"
+                    style="font-size: 10px;">Festive Oppulence</a>
+            </div>
+            <div class="d-flex flex-column gap-2 justify-content-center align-items-center">
+                <img src="./ecommerce images/whats-new-image5.avif" alt="image" class=""
+                    style="border: 0; border-radius: 100%; width: 130px; height: 130px;">
+                <a href="./collections/spring-summer-25" class="text-dark link-underline-light text-uppercase"
+                    style="font-size: 10px;">Festive Oppulence</a>
+            </div>
+        </div>
     </div>
-    <div class="carousel-item">
-      <img src="./ecommerce images/Desktop_Banner2.webp" class="d-block w-100" alt="Desktop_Banner2">
-    </div>
-    <div class="carousel-item">
-      <img src="./ecommerce images/Desktop_Banner3.webp" class="d-block w-100" alt="Desktop_Banner3">
-    </div>
-    <div class="carousel-item">
-      <img src="./ecommerce images/Desktop_Banner4.webp" class="d-block w-100" alt="Desktop_Banner4">
-    </div>
-    <div class="carousel-item">
-      <img src="./ecommerce images/Desktop_Banner5.webp" class="d-block w-100" alt="Desktop_Banner5">
-    </div>
-    <div class="carousel-item">
-      <img src="./ecommerce images/Desktop_Banner6.webp" class="d-block w-100" alt="Desktop_Banner6">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-<div class="w-70 d-flex justify-content-center align-items-center gap-4 m-4">
-    <h2 class="fs-2 fw-2 text-center" style="color: rgb(44, 43, 43);">What's <span class="fs-2 d-block" style="font-weight: 600;">New</span></h2>
-    <div class="d-flex flex-column gap-2 justify-content-center align-items-center">
-        <img src="./ecommerce images/whats-new-image1.avif" alt="image" class="" style="border: 0; border-radius: 100%; width: 130px; height: 130px;">
-        <a href="./collections/spring-summer-25" class="text-dark link-underline-light text-uppercase" style="font-size: 10px;">Festive Oppulence</a>
-    </div>
-    <div class="d-flex flex-column gap-2 justify-content-center align-items-center">
-        <img src="./ecommerce images/whats-new-image2.avif" alt="image" class="" style="border: 0; border-radius: 100%; width: 130px; height: 130px;">
-        <a href="./collections/spring-summer-25" class="text-dark link-underline-light text-uppercase" style="font-size: 10px;">Festive Oppulence</a>
-    </div>
-    <div class="d-flex flex-column gap-2 justify-content-center align-items-center">
-        <img src="./ecommerce images/what-new-image-3.avif" alt="image" class="" style="border: 0; border-radius: 100%; width: 130px; height: 130px;">
-        <a href="./collections/spring-summer-25" class="text-dark link-underline-light text-uppercase" style="font-size: 10px;">Festive Oppulence</a>
-    </div>
-    <div class="d-flex flex-column gap-2 justify-content-center align-items-center">
-        <img src="./ecommerce images/what's-new-image-4.webp" alt="image" class="" style="border: 0; border-radius: 100%; width: 130px; height: 130px;">
-        <a href="./collections/spring-summer-25" class="text-dark link-underline-light text-uppercase" style="font-size: 10px;">Festive Oppulence</a>
-    </div>
-    <div class="d-flex flex-column gap-2 justify-content-center align-items-center">
-        <img src="./ecommerce images/whats-new-image5.avif" alt="image" class="" style="border: 0; border-radius: 100%; width: 130px; height: 130px;">
-        <a href="./collections/spring-summer-25" class="text-dark link-underline-light text-uppercase" style="font-size: 10px;">Festive Oppulence</a>
-    </div>
-</div>
+
+    <div class="w-100 d-flex p-2 flex-column gap-1 justify-content-center align-items-center">
+        <div class="navigation d-flex justify-content-center align-items-center">
+            <ul class="d-flex justify-content-center align-items-center gap-4"
+                style="font-size: 16px; font-weight: 500; list-style-type: none;">
+                <li>
+                    <a href="#" class="link-underline-light" style="color: gray;">Festive Opulence</a>
+                </li>
+                <li>
+                    <a href="#" class="link-underline-light" style="color: gray;">The Minimal Pret</a>
+                </li>
+                <li>
+                    <a href="#" class="link-underline-light" style="color: gray;">Luxury Festive Rejoice</a>
+                </li>
+                <li>
+                    <a href="#" class="link-underline-light" style="color: gray;">Western Wear</a>
+                </li>
+                <li>
+                    <a href="#" class="link-underline-light" style="color: gray;">Luxury Wear</a>
+                </li>
+
+            </ul>
         </div>
 
-        
+        <!-- Card Slider -->
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="d-flex gap-3 justify-content-center align-items-center">
+                        <div class="card" style="border: none; border-radius: 0%; width: 325px;">
+                            <img src="./ecommerce images/meerab1.webp" class="card-img-top" alt="card-image"
+                                style="width: 325px; height: 500px; border: none; border-radius: 0%;">
+                            <div class="card-body d-flex flex-row gap-3">
+                                <div>
+                                    <h5 class="card-title text-uppercase"
+                                        style="font-size: 14px; word-spacing: 1px; line-height: 24px;">AJBP-173 <br>
+                                        <span>
+                                            Embroided Cambric Stitched 2 pcs
+                                        </span> </h5>
+                                    <p class="text-secondary" style="font-size: 12px;">Rs. 5,750</p>
+                                </div>
+                                <a href="#" class="btn btn-dark text-uppercase"
+                                    style="width: 240px; height: 30px; font-size: 12px; padding: 4px 6px;">Add to
+                                    Cart</a>
+                            </div>
+                        </div>
+                        <div class="card" style="border: none; border-radius: 0%; width: 325px;">
+                            <img src="./ecommerce images/aima10.webp" class="card-img-top" alt="card-image"
+                                style="width: 325px; height: 500px; border: none; border-radius: 0%;">
+                            <div class="card-body d-flex flex-row gap-3">
+                                <div>
+                                    <h5 class="card-title text-uppercase"
+                                        style="font-size: 14px; word-spacing: 1px; line-height: 24px;">AJBP-173 <br>
+                                        <span>
+                                            Embroided Cambric Stitched 2 pcs
+                                        </span> </h5>
+                                    <p class="text-secondary" style="font-size: 12px;">Rs. 5,750</p>
+                                </div>
+                                <a href="#" class="btn btn-dark text-uppercase"
+                                    style="width: 240px; height: 30px; font-size: 12px; padding: 4px 6px;">Add to
+                                    Cart</a>
+                            </div>
+                        </div>
+                        <div class="card" style="border: none; border-radius: 0%; width: 325px;">
+                            <img src="./ecommerce images/women dress 3.webp" class="card-img-top" alt="card-image"
+                                style="width: 325px; height: 500px; border: none; border-radius: 0%;">
+                            <div class="card-body d-flex flex-row gap-3">
+                                <div>
+                                    <h5 class="card-title text-uppercase"
+                                        style="font-size: 14px; word-spacing: 1px; line-height: 24px;">AJBP-173 <br>
+                                        <span>
+                                            Embroided Cambric Stitched 2 pcs
+                                        </span> </h5>
+                                    <p class="text-secondary" style="font-size: 12px;">Rs. 5,750</p>
+                                </div>
+                                <a href="#" class="btn btn-dark text-uppercase"
+                                    style="width: 240px; height: 30px; font-size: 12px; padding: 4px 6px;">Add to
+                                    Cart</a>
+                            </div>
+                        </div>
+                        <div class="card" style="border: none; border-radius: 0%; width: 325px;">
+                            <img src="./ecommerce images/women dress 1.webp" class="card-img-top" alt="card-image"
+                                style="width: 325px; height: 500px; border: none; border-radius: 0%;">
+                            <div class="card-body d-flex flex-row gap-3">
+                                <div>
+                                    <h5 class="card-title text-uppercase"
+                                        style="font-size: 14px; word-spacing: 1px; line-height: 24px;">AJBP-173 <br>
+                                        <span>
+                                            Embroided Cambric Stitched 2 pcs
+                                        </span> </h5>
+                                    <p class="text-secondary" style="font-size: 12px;">Rs. 5,750</p>
+                                </div>
+                                <a href="#" class="btn btn-dark text-uppercase"
+                                    style="width: 240px; height: 30px; font-size: 12px; padding: 4px 6px;">Add to
+                                    Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex gap-3 justify-content-center align-items-center">
+                        <div class="card" style="border: none; border-radius: 0%; width: 325px;">
+                            <img src="./ecommerce images/meerab11.webp" class="card-img-top" alt="card-image"
+                                style="width: 325px; height: 500px; border: none; border-radius: 0%;">
+                            <div class="card-body d-flex flex-row gap-3">
+                                <div>
+                                    <h5 class="card-title text-uppercase"
+                                        style="font-size: 14px; word-spacing: 1px; line-height: 24px;">AJBP-173 <br>
+                                        <span>
+                                            Embroided Cambric Stitched 2 pcs
+                                        </span> </h5>
+                                    <p class="text-secondary" style="font-size: 12px;">Rs. 5,750</p>
+                                </div>
+                                <a href="#" class="btn btn-dark text-uppercase"
+                                    style="width: 240px; height: 30px; font-size: 12px; padding: 4px 6px;">Add to
+                                    Cart</a>
+                            </div>
+                        </div>
+                        <div class="card" style="border: none; border-radius: 0%; width: 325px;">
+                            <img src="./ecommerce images/saira4.webp" class="card-img-top" alt="card-image"
+                                style="width: 325px; height: 500px; border: none; border-radius: 0%;">
+                            <div class="card-body d-flex flex-row gap-3">
+                                <div>
+                                    <h5 class="card-title text-uppercase"
+                                        style="font-size: 14px; word-spacing: 1px; line-height: 24px;">AJBP-173 <br>
+                                        <span>
+                                            Embroided Cambric Stitched 2 pcs
+                                        </span> </h5>
+                                    <p class="text-secondary" style="font-size: 12px;">Rs. 5,750</p>
+                                </div>
+                                <a href="#" class="btn btn-dark text-uppercase"
+                                    style="width: 240px; height: 30px; font-size: 12px; padding: 4px 6px;">Add to
+                                    Cart</a>
+                            </div>
+                        </div>
+                        <div class="card" style="border: none; border-radius: 0%; width: 325px;">
+                            <img src="./ecommerce images/meerab3.webp" class="card-img-top" alt="card-image"
+                                style="width: 325px; height: 500px; border: none; border-radius: 0%;">
+                            <div class="card-body d-flex flex-row gap-3">
+                                <div>
+                                    <h5 class="card-title text-uppercase"
+                                        style="font-size: 14px; word-spacing: 1px; line-height: 24px;">AJBP-173 <br>
+                                        <span>
+                                            Embroided Cambric Stitched 2 pcs
+                                        </span> </h5>
+                                    <p class="text-secondary" style="font-size: 12px;">Rs. 5,750</p>
+                                </div>
+                                <a href="#" class="btn btn-dark text-uppercase"
+                                    style="width: 240px; height: 30px; font-size: 12px; padding: 4px 6px;">Add to
+                                    Cart</a>
+                            </div>
+                        </div>
+                        <div class="card" style="border: none; border-radius: 0%; width: 325px;">
+                            <img src="./ecommerce images/saira1.webp" class="card-img-top" alt="card-image"
+                                style="width: 325px; height: 500px; border: none; border-radius: 0%;">
+                            <div class="card-body d-flex flex-row gap-3">
+                                <div>
+                                    <h5 class="card-title text-uppercase"
+                                        style="font-size: 14px; word-spacing: 1px; line-height: 24px;">AJBP-173 <br>
+                                        <span>
+                                            Embroided Cambric Stitched 2 pcs
+                                        </span> </h5>
+                                    <p class="text-secondary" style="font-size: 12px;">Rs. 5,750</p>
+                                </div>
+                                <a href="#" class="btn btn-dark text-uppercase"
+                                    style="width: 240px; height: 30px; font-size: 12px; padding: 4px 6px;">Add to
+                                    Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
 
-        <center>
-            <h1>What's New</h1>
-        </center>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-        <img src="../ecommerce images/haya dress.avif" alt="haya dress">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <img src="../ecommerce images/aima dress.avif" alt="aima dress">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <img src="../ecommerce images/yumna dress.avif"
-            alt="yumna dress">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <img src="../ecommerce images/meerab dress.avif"
-            alt="meerab dress">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <img src="../ecommerce images/saira dress.avif"
-            alt="saira dress">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </div>
 
+    <!-- Image Slider -->
+    <div class="d-flex flex-column gap-3 align-items-center">
+        <h2 class="" style="font-weight: 600;">Shop By Category</h2>
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="d-flex justify-content-center align-items-center gap-3">
+                        <div class="content-image1 d-flex flex-column gap-2 align-items-center">
+                            <img src="./ecommerce images/kids category.webp" alt="new arrivals luxury image"
+                                style="width: 300px; height: 450px;">
+                            <h2 class="my-2" style="font-size: 16px; font-weight: 500;">Kids</h2>
+                        </div>
+                        <div class="content-image1 d-flex flex-column gap-2 align-items-center">
+                            <img src="./ecommerce images/new-essentials-image.webp" alt="new arrivals luxury image"
+                                style="width: 300px; height: 450px;">
+                            <h2 class="my-2" style="font-size: 16px; font-weight: 500;">Essential Pret</h2>
+                        </div>
+                        <div class="content-image1 d-flex flex-column gap-2 align-items-center">
+                            <img src="./ecommerce images/unstitched-image.webp" alt="new arrivals luxury image"
+                                style="width: 300px; height: 450px;">
+                            <h2 class="my-2" style="font-size: 16px; font-weight: 500;">Unstitched Luxury</h2>
+                        </div>
+                        <div class="content-image1 d-flex flex-column gap-2 align-items-center">
+                            <img src="./ecommerce images/western-cassual-image.webp" alt="new arrivals luxury image"
+                                style="width: 300px; height: 450px;">
+                            <h2 class="my-2" style="font-size: 16px; font-weight: 500;">Wester wear</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center align-items-center gap-3">
+                        <div class="content-image1 d-flex flex-column gap-2 align-items-center">
+                            <img src="./ecommerce images/women dress 1.webp" alt="new arrivals luxury image"
+                                style="width: 300px; height: 450px;">
+                            <h2 class="my-2" style="font-size: 16px; font-weight: 500;">Basic</h2>
+                        </div>
+                        <div class="content-image1 d-flex flex-column gap-2 align-items-center">
+                            <img src="./ecommerce images/spring-summer-festive-image.webp"
+                                alt="new arrivals luxury image" style="width: 300px; height: 450px;">
+                            <h2 class="my-2" style="font-size: 16px; font-weight: 500;">Luxury Pret</h2>
+                        </div>
+                        <div class="content-image1 d-flex flex-column gap-2 align-items-center">
+                            <img src="./ecommerce images/jwelery-sets.webp" alt="new arrivals luxury image"
+                                style="width: 300px; height: 450px;">
+                            <h2 class="my-2" style="font-size: 16px; font-weight: 500;">Jwelery</h2>
+                        </div>
+                        <div class="content-image1 d-flex flex-column gap-2 align-items-center">
+                            <img src="./ecommerce images/mens-ready.webp" alt="new arrivals luxury image"
+                                style="width: 300px; height: 450px;">
+                            <h2 class="my-2" style="font-size: 16px; font-weight: 500;">Mens</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
 
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="./outfitoftheday.html">Outfit Of The Day</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="./raniaspring.html">Rania Spring</a>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="#">Dastaan</a>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="./khwab-e-naubahar.html">Khwab-e-Naubahar</a>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="./merahaseenjora.html"> Mera Haseen Jora</a>
-        </P><br><br>
+    <div class="d-flex flex-column gap-3 justify-content-center align-items-center" style="padding: 1rem 0rem;">
+        <h2 class="" style="font-weight: 600;">Spring / Summer</h2>
+        <div class="container text-center d-flex gap-3">
+            <div class="d-flex flex-column gap-3" style="width: 50%;">
+                <img src="./ecommerce images/title-image1.webp" alt="img" style="height: 500px; width: 100%;">
+                <div class="d-flex gap-3" style="width: 100%; padding: 2px;">
+                    <img src="./ecommerce images/title-image2.webp" alt="img" style="height: 350px; width: 48%;">
+                    <img src="./ecommerce images/title-image3.webp" alt="img" style="height: 350px; width: 48%;">
+                </div>
+            </div>
+            <div class="d-flex flex-column gap-3" style="width: 50%;">
+                <div class="d-flex gap-3" style="width: 100%;">
+                    <img src="./ecommerce images/title-image4.webp" alt="img" style="height: 350px; width: 48%;">
+                    <img src="./ecommerce images/title-image6.webp" alt="img" style="height: 350px; width: 48%;">
+                </div>
+                <img src="./ecommerce images/title-image5.webp" alt="img"
+                    style="height: 500px; width: 100%; padding: 2px;">
+            </div>
+        </div>
 
-        <center>
-            <h1>SHOP BY CATEGORY</h1>
-        </center>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <img src="../ecommerce images/category_tile-_unstitched_luxury.webp" alt="UNSTITCHED LUXURY" width="700">
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <img src="../ecommerce images/Category_tile-_luxe.webp" alt="AJ ESSENTIAL" width="700"><br><br><br>
+    </div>
 
-        <img src="../ecommerce images/mahpara category.webp" alt="mahpara category" height="450" width="370">
-        <img src="../ecommerce images/saira category.webp" alt="saira category" height="450" width="370">
-        <img src="../ecommerce images/teens category.webp" alt="teens category" height="450" width="370">
-        <img src="../ecommerce images/kids category.webp" alt="kids category" height="450" width="370"><br><br>
+    
+        <div class="w-100 ">
+            <footer class="py-5">
+                <div class="row">
+                    <div class="col-6 col-md-2 mb-3">
+                        <h2 class="" style="font-weight: 500; font-size: 14px;">Contact</h2>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md-2 mb-3">
+                        <h2 class="" style="font-weight: 500; font-size: 14px;">Contact</h2>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md-2 mb-3">
+                        <h2 class="" style="font-weight: 500; font-size: 14px;">Contact</h2>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-5 offset-md-1 mb-3">
+                        <form>
+                            <h5>Subscribe to our newsletter</h5>
+                            <p>Monthly digest of what's new and exciting from us.</p>
+                            <div class="d-flex flex-column flex-sm-row w-100 gap-2"> <label for="newsletter1"
+                                    class="visually-hidden">Email address</label> <input id="newsletter1" type="email"
+                                    class="form-control" placeholder="Email address"> <button class="btn btn-primary"
+                                    type="button">Subscribe</button> </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                    <p>© 2025 Company, Inc. All rights reserved.</p>
+                    <ul class="list-unstyled d-flex">
+                        <li class="ms-3"><a class="link-body-emphasis" href="#" aria-label="Instagram"><svg class="bi"
+                                    width="24" height="24">
+                                    <use xlink:href="#instagram"></use>
+                                </svg></a></li>
+                        <li class="ms-3"><a class="link-body-emphasis" href="#" aria-label="Facebook"><svg class="bi"
+                                    width="24" height="24" aria-hidden="true">
+                                    <use xlink:href="#facebook"></use>
+                                </svg></a></li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+   
+    </div>
 
-        <center>
-            <h1>#IWEARASIMJOFA</h1>
-        </center>
-
-        <img src="../ecommerce images/mawra hocane.webp" alt="mawra hocane" height="350" width="370">
-        <img src="../ecommerce images/sabeena syed.webp" alt="sabeena syed" height="350" width="370">
-        <img src="../ecommerce images/azeekah.webp" alt="azeekah" height="350" width="370">
-        <img src="../ecommerce images/warda.webp" alt="warda" height="350" width="370"><br>
-
-
-        <center>
-            <h1>SHOP BY FABRIC</h1>
-        </center><br>
-
-        &nbsp;&nbsp;
-        <img src="../ecommerce images/fabric1.webp" alt="img" height="450" width="350">&nbsp;&nbsp;
-        <img src="../ecommerce images/fabric2.webp" alt="img" height="450" width="350">&nbsp;&nbsp;
-        <img src="../ecommerce images/fabric3.webp" alt="img" height="450" width="350">&nbsp;&nbsp
-        <img src="../ecommerce images/fabric4.webp" alt="img" height="450" width="350">&nbsp;<br><br>
-
-        <center>
-            <h1>@ASIM JOFA</h1>
-        </center><br>
-        &nbsp;&nbsp;
-        <img src="../ecommerce images/jofa1.webp" alt="img" height="400" width="350">&nbsp;&nbsp;
-        <img src="../ecommerce images/jofa2.webp" alt="img" height="400" width="350">&nbsp;&nbsp;
-        <img src="../ecommerce images/jofa3.webp" alt="img" height="400" width="350">&nbsp;&nbsp;
-        <img src="../ecommerce images/jofa4.webp" alt="img" height="400" width="350">&nbsp;&nbsp;<br><br>
-        <br>
-        <center><a href="./viewmore.html">view more</a></center><br>
-
-
-        <a href="#"> Top</a>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
-            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+        crossorigin="anonymous"></script>
+    <script src="./app.js"></script>
 </body>
 
 </html>
