@@ -12,6 +12,7 @@ body{
 .dropdown {
         position: relative;
   display: inline-block;
+  padding: 0 2px;
 }
 
 .dropdown-content {
@@ -28,4 +29,8 @@ body{
 
 .dropdown:hover .dropdown-content {
   display: flex;
+}
+
+.link-hover:hover{
+color: black;
 }
